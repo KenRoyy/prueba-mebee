@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #212123;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hTitle{
+  font-family: 'Nunito', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 100px;
+}
+
+.list{
+  width: 100%;
+  height: auto;
+  padding-left: 0px;
+}
+
+.song{
+  width: 50%;
+  height: auto;
+  justify-content: center;
+}
+
+.song p span{
+  text-align: right;
+}
+
+.songList{
+  display: flex;
+  background: #202;
+  padding: 5px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.description{
+  margin-left: 20px;
+}
